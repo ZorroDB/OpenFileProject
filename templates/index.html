@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenFile</title>
+    {{ dropzone.load_css() }}
+    {{ dropzone.style('border: 2px dashed black;') }}
+</head>
+<body>
+    <div style="color: #000000; font-size: 20px; font-weight: bold; margin: 10px 0px 10px 0px;">OpenFile</div>
+    {{ dropzone.create(action='upload') }}
+    {{ dropzone.load_js() }}
+    {{ dropzone.config() }}
+
+</body>
+</html>
