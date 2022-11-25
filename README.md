@@ -1,4 +1,6 @@
-OpenFile Project
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?text=OpenFile&animation=fadeIn&type=waving&color=gradient&height=100"/>
+</p>
 
 Wat is OpenFile?
 
