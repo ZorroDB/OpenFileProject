@@ -3,6 +3,8 @@ import os
 from flask import Flask, render_template, request
 from flask_dropzone import Dropzone
 
+
+
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
@@ -22,7 +24,7 @@ def upload():
     if request.method == 'POST':
         f = request.files.get('file')
         f.save(os.path.join(app.config['UPLOADED_PATH'], f.filename))
-    return render_template('index.html')
+    return render_template('index.php')
 
 
 if __name__ == '__main__':
